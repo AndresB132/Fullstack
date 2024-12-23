@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones de Música</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>🎵 Recomendaciones de Música 🎶</h1>
+    <div class="form-container">
+        <h2>Agregar Nueva Canción</h2>
+        <form id="songForm">
+            <input type="text" id="title" name="title" placeholder="Nombre de la Canción" required>
+            <input type="text" id="artist" name="artist" placeholder="Artista" required>
+            <input type="url" id="youtubeLink" name="youtubeLink" placeholder="URL del Video de YouTube" required pattern="https?://.+">
+            <button type="submit">Agregar Canción</button>
+        </form>
+        <p id="formMessage"></p>
+    </div>
+
+    <button id="randomButton">Obtener Canción Aleatoria</button>
+    <div id="songContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
