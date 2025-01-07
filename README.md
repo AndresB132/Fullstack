@@ -10,4 +10,4 @@ Este proyecto está orientado a fusionar funcionalidad y estética para que los 
 
 # Clonar repositorio 
 
-https://github.com/AndresB132/Fullstack.git
+git clone https://github.com/AndresB132/Fullstack.git
