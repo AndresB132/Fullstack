@@ -11,3 +11,25 @@ Este proyecto está orientado a fusionar funcionalidad y estética para que los 
 # Clonar repositorio 
 
 git clone https://github.com/AndresB132/Fullstack.git
+
+
+# Ruta 
+
+cd .\music-recomendation\server\
+
+
+# Instalación 
+
+npm install express mongoose cors
+
+# Levantar Servidor 
+
+npm start
+
+o
+
+node server.js
+
+o
+
+npm run dev
