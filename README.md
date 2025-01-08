@@ -23,6 +23,7 @@ cd .\music-recomendation\server\
 npm install express mongoose cors
 
 # Levantar Servidor 
+se puede levantar con estos 3 comandos 
 
 npm start
 
@@ -33,7 +34,3 @@ node server.js
 o
 
 npm run dev
-
-# Link
-
-http://localhost:3000/
